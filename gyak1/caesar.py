@@ -16,7 +16,7 @@ def encrypt(msg, key):
     return result
 
 def decrypt(msg, key):    
-    result = ""    
+    result = ""
     for c in msg:        
         print("char: " + c + " ord: " + str(ord(c)))        
         ordinal = ord(c) - key        
